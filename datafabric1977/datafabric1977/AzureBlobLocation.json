@@ -9,7 +9,7 @@
       "format": {
         "type": "TextFormat",
         "columnDelimiter": "\t",
-        "firstRowAsHeader": true
+        "firstRowAsHeader": false
       },
       "partitionedBy": [
         {
