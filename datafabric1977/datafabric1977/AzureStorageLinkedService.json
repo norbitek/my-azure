@@ -1,0 +1,10 @@
+{
+  "name": "AzureStorageLinkedService",
+  "properties": {
+    "type": "AzureStorage",
+    "typeProperties": {
+      "connectionString": "BlobEndpoint=https://storage1976.blob.core.windows.net/;QueueEndpoint=https://storage1976.queue.core.windows.net/;TableEndpoint=https://storage1976.table.core.windows.net/;FileEndpoint=https://storage1976.file.core.windows.net/;AccountName=storage1976;AccountKey=**********"
+    }
+  },
+  "$schema": "http://datafactories.schema.management.azure.com/schemas/2015-09-01/Microsoft.DataFactory.LinkedService.json"
+}
