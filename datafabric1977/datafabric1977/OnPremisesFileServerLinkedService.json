@@ -1,0 +1,15 @@
+{
+  "name": "OnPremisesFileServerLinkedService",
+  "properties": {
+    "description": "",
+    "type": "OnPremisesFileServer",
+    "typeProperties": {
+      "host": "localhost",
+      "gatewayName": "integration1976",
+      "userId": null,
+      "password": null,
+      "encryptedCredential": "eyJDb25uZWN0aW9uU3RyaW5nIjoibG9jYWxob3N0IiwiRW5jcnlwdGVkQ3JlZGVudGlhbCI6IntcIkNsYXNzVHlwZVwiOlwiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTRcIixcIkNyZWRlbnRpYWxJZFwiOlwiYzFiYjRiZTItYjFlYS00N2JhLTgxMzQtODE0NTA0YzYyNzM3XCIsXCJEYXRhU291cmNlUmVmZXJlbmNlQW5kU2lnbmF0dXJlXCI6bnVsbCxcIkRhdGFTb3VyY2VTZXR0aW5nc1wiOlwie1xcXCJDbGFzc1R5cGVcXFwiOlxcXCJNaWNyb3NvZnQuRGF0YVByb3h5LkNvcmUuSW50ZXJTZXJ2aWNlRGF0YUNvbnRyYWN0LkRhdGFTb3VyY2VTZXR0aW5nc0RhdGFWMVxcXCIsXFxcIkNyZWRlbnRpYWxUeXBlXFxcIjoyLFxcXCJFbmNyeXB0ZWRDb25uZWN0aW9uXFxcIjoxLFxcXCJQcml2YWN5XFxcIjozfVwiLFwiRW5jcnlwdGVkQmxvYlwiOm51bGwsXCJWZXJzaW9uXCI6XCJcIn0ifQ=="
+    }
+  },
+  "$schema": "http://datafactories.schema.management.azure.com/schemas/2015-09-01/Microsoft.DataFactory.LinkedService.json"
+}

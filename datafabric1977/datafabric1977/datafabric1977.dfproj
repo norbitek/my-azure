@@ -29,6 +29,8 @@
   <ItemGroup>
     <Script Include="AzureBlobLocation.json" />
     <Script Include="AzureStorageLinkedService.json" />
+    <Script Include="OnPremisesFile.json" />
+    <Script Include="OnPremisesFileServerLinkedService.json" />
   </ItemGroup>
   <Import Project="$(AppData)\Microsoft\DataFactory Tools for Visual Studio\MsBuild\1.0\DataFactory.targets" />
 </Project>
