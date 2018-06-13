@@ -5,7 +5,7 @@
     "type": "FileShare",
     "linkedServiceName": "OnPremisesFileServerLinkedService",
     "typeProperties": {
-      "folderPath": "AzureData\\"
+      "folderPath": "C:\\AzureData"
     },
     "availability": {
       "frequency": "Minute",
