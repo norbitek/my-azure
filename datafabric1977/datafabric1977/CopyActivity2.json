@@ -1,0 +1,43 @@
+﻿{
+  "$schema": "http://datafactories.schema.management.azure.com/schemas/2015-09-01/Microsoft.DataFactory.Pipeline.json",
+  "name": "Pipeline2",
+  "properties": {
+    "description": "Copy data to ADL",
+    "activities": [
+      {
+        "name": "CopyActivityTemplate",
+        "type": "Copy",
+        "inputs": [
+          {
+            "name": "OnPremisesFile"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "AzureDataLakeStoreLocation"
+          }
+        ],
+        "typeProperties": {
+          "source": {
+            "type": "FileSystemSource"
+          },
+          "sink": {
+            "type": "AzureDataLakeStoreSink"
+          }
+        },
+        "policy": {
+          "concurrency": 1,
+          "executionPriorityOrder": "OldestFirst",
+          "retry": 3,
+          "timeout": "01:00:00"
+        },
+        "scheduler": {
+          "frequency": "Minute",
+          "interval": 15
+        }
+      }
+    ],
+    "start": "2018-06-14T00:00:00Z",
+    "end": "2018-06-15T00:00:00Z"
+  }
+}

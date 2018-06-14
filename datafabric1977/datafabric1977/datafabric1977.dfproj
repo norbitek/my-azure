@@ -32,6 +32,7 @@
     <Script Include="AzureDataLakeStoreLocation.json" />
     <Script Include="AzureStorageLinkedService.json" />
     <Script Include="CopyActivity1.json" />
+    <Script Include="CopyActivity2.json" />
     <Script Include="OnPremisesFile.json" />
     <Script Include="OnPremisesFileServerLinkedService.json" />
   </ItemGroup>
