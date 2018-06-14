@@ -3,7 +3,7 @@
   "properties": {
     "type": "AzureStorage",
     "typeProperties": {
-      "connectionString": "BlobEndpoint=https://storage1976.blob.core.windows.net/;QueueEndpoint=https://storage1976.queue.core.windows.net/;TableEndpoint=https://storage1976.table.core.windows.net/;FileEndpoint=https://storage1976.file.core.windows.net/;AccountName=storage1976;AccountKey=**********"
+      "connectionString": "BlobEndpoint=https://storage1976.blob.core.windows.net/;QueueEndpoint=https://storage1976.queue.core.windows.net/;TableEndpoint=https://storage1976.table.core.windows.net/;FileEndpoint=https://storage1976.file.core.windows.net/;AccountName=storage1976;AccountKey=zmLB8K22JEcrfNWF2A2O8xFwz+VZrWGOyv8SBd0Gaanei8EGgUKYuzBbqHhyy0gCBtTrK0uWZfs2XyEmZxr0bQ=="
     }
   },
   "$schema": "http://datafactories.schema.management.azure.com/schemas/2015-09-01/Microsoft.DataFactory.LinkedService.json"
