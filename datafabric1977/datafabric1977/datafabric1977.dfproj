@@ -29,6 +29,7 @@
   <ItemGroup>
     <Script Include="AzureBlobLocation.json" />
     <Script Include="AzureDataLakeStoreLinkedService.json" />
+    <Script Include="AzureDataLakeStoreLocation.json" />
     <Script Include="AzureStorageLinkedService.json" />
     <Script Include="CopyActivity1.json" />
     <Script Include="OnPremisesFile.json" />
