@@ -13,9 +13,9 @@
                     }
                 ],
                 "outputs": [
-                    {
-                        "name": "AzureStorageLinkedService"
-                    }
+                  {
+                    "name": "AzureBlobLocation"
+                  }
                 ],
                 "typeProperties": {
                     "source": {
