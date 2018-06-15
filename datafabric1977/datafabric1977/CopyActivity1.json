@@ -13,9 +13,9 @@
                     }
                 ],
                 "outputs": [
-                    {
-                        "name": "AzureBlobLocation"
-                    }
+                  {
+                    "name": "AzureBlobLocation"
+                  }
                 ],
                 "typeProperties": {
                     "source": {
